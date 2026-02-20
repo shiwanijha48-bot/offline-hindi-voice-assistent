@@ -4,7 +4,7 @@ During install check “Add Python to PATH”
 Verify:
 # python --version
 -> It should show 3.11.x
-
+----------------------------------------
 
 Step 2: Install Required Libraries
 Open PowerShell inside your project folder:
@@ -13,6 +13,7 @@ Open PowerShell inside your project folder:
 If pyaudio fails:
 # pip install pipwin
 # pipwin install pyaudio
+----------------------------------------
 
 
 Step 3: Download Hindi Vosk Model
@@ -28,6 +29,7 @@ project_folder/
 │
 ├── hindi_assistant.py
 └── vosk-model-small-hi-0.22/
+----------------------------------------
 
 
 Step 4: Check Microphone
@@ -35,11 +37,13 @@ Run this:
 # import sounddevice as sd
 # print(sd.query_devices())
 Make sure your mic appears in the list.
+----------------------------------------
 
 
 Step 5: (If Voice Not Speaking) Install eSpeak
 Download and install eSpeak NG.
 Make sure it is added to PATH.
+----------------------------------------
 
 
 Step 6: Run the Program Using Command Prompt (CMD)
@@ -53,7 +57,7 @@ Example:
 
 Once inside the project directory, run the following command:
 >>>python hindi_assistant.py
-
+----------------------------------------
 
 Step7: If everything is set up correctly, you will see:
 
@@ -76,3 +80,4 @@ You can now speak commands such as:
 किसने बनाया
 तुम कौन
 अलविदा / बंद
+----------------------------------------
